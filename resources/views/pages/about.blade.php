@@ -1,0 +1,6 @@
+@extends('layouts.app')
+@section('content')
+    <h1>About</h1>
+    <p>InDepth is all set to create wonders in your school premises. InDepth is an educational software with a motive of making the process of learning, teaching and administration easier and that mends with the needs of the 21st century education system. It allows the educators to focus on the needs of the students while the rest of the works are taken care by InDepth. The software helps the institution and school adapt to the progressive education system by making child-cerebrated environment.
+        InDepth provides numerous services in one click such as school management system, grade books and reports, timetable, teachers- parent collaboration,online payment, online examination and assignment that brings the education to the students doorstep. The software is designed to help every personnel of the school or institution starting from administer to the students. InDepth allows students and education focus on depth of education and make lives easier.</p> 
+@endsection

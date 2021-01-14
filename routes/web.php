@@ -15,16 +15,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PagesController@index');
 Route::get('/about','PagesController@about');
+Route::get('/services', 'PagesController@services');
+
+Route::resource('posts', 'PostsController');
+
 // Route::get('/about', function () {
 //     return view('pages.about');
 // });
 
-Route::get('/user/{name}/{id}', function ($name, $id) {
-    return 'Hello ' . $name . ' with an id of ' . $id;
-});
+// Route::get('/user/{name}/{id}', function ($name, $id) {
+//     return 'Hello ' . $name . ' with an id of ' . $id;
+// });
 
 // Route::get('/services', function (){
 //     return view('pages.services');
 // });
-
-Route::get('/services', 'PagesController@services');

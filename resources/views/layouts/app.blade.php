@@ -7,8 +7,9 @@
         <title>{{config('app.name', 'App name is not defined')}}</title>
     </head>
     <body>
-        @include('nav.navbar')
+        @include('inc.navbar')
         <div class="container">
+            @include('inc.messages')
             @yield('content')
         </div>
     </body>

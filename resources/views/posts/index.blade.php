@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+    <nav class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2 d-none d-md-inline-block" href="/posts/create">Create Post</a>
+    </nav>
+
     <h1>Posts</h1>
     @if(count($posts) > 0)
         @foreach($posts as $post)
